@@ -14,6 +14,8 @@ body {
 
   background:url(fundo.png);
   background-size:cover;
+  backdrop-filter: blur(3px);
+  height: 100vh;
   font-family: 'Source Sans Pro', sans-serif; /* Definimos o tipo de fonte */
   color: white;
 }
