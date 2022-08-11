@@ -11,10 +11,10 @@
   border: 0; /* Zeramos o border */
 } /* Com isto acima, ressetamos estas propriedades */
 body {
-  background:url(fundo.png); /*imagem que esta no fundo*/
-  background-size:cover;/*faz com que a imagem cubra o fundo todo independento do tamanho da tela*/
-  backdrop-filter: blur(3px);/*fundo borrado*/
-  height: 100vh;/*faz com que o fundo fique em 100% da janela*/
+  background:url(fundo.png); /*imagem de fundo*/
+  background-size:cover; /*faz com que a imagem fique no fundo todo independento do tamanho da tela*/
+  backdrop-filter: blur(3px); /*fundo borrado*/
+  height: 100vh; /*faz com que o fundo fique em 100% da janela*/
   font-family: 'Source Sans Pro', sans-serif; /* Definimos o tipo de fonte */
   color: white;
 }
