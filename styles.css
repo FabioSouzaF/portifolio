@@ -70,7 +70,7 @@ header {
 }
 #wrapper p {
   max-width: 500px; /* Define o tamanho máximo da linha, fazendo a quebra caso ultrapasse */
-  margin: 32px auto; /* Espaço superior da linha de 32px e */
+  margin: 5px auto; /* Espaço superior da linha de 32px e */
                      /* laterais automáticas (centraliza - auto)  */
   font-size: 24px; 
   line-height: 34px;
