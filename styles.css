@@ -184,6 +184,7 @@ iframe {
   text-align: center;
 }
 #structure #object h2{
+  color: #3db786;
   text-align:left;
   max-width: 500px;
   margin: 5px auto;
@@ -196,6 +197,7 @@ iframe {
   margin: 5px auto;
 }
 #structure #form h3{
+  color: #3db786;
   text-align:left;
   max-width: 500px;
   margin: 5px auto;
@@ -209,6 +211,7 @@ iframe {
 }
 
 #structure #ling h4{
+  color: #3db786;
   text-align:left;
   max-width: 500px;
   margin: 5px auto;
@@ -222,6 +225,7 @@ iframe {
   }
 
 #structure #exp h5{
+  color: #3db786;
   text-align:left;
   max-width: 500px;
   margin: 5px auto;
