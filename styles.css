@@ -84,6 +84,15 @@ header {
                                                /* o text-decoration: none, como foi*/
                                                /* colocado no seletor ".links a" */          
 }
+#std a1{
+  color:orangered;
+}
+#std a2{
+  color:blue;
+}
+#std a3{
+  color:yellow;
+}
 /*=== CARDS ===*/
 .cards { /* Estilizando a section cards */
   max-width: 800px; /* Limite máximo de largura */
