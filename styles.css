@@ -68,6 +68,16 @@ header {
   margin-top: 8px; /* Deixo uma separação entre o h1 e o h2*/
   opacity: 0.8; /* Deixa a cor do texto um pouco mais leve */
 }
+#wrapper h2 a{
+  color: white;
+  text-decoration: none; /* Eliminamos o sublinhado da tag a (link) */
+  border-bottom: 1px solid var(--color-green);
+}
+#wrapper h2 a:hover{
+  color: var(--color-green); /* Definimos uma cor verde para o menu quando movemos 
+  o mouse sobre ele */
+transition: color 200ms; /* Tempo da transição para a mudança de cor */
+}
 #wrapper p {
   max-width: 500px; /* Define o tamanho máximo da linha, fazendo a quebra caso ultrapasse */
   margin: 5px auto; /* Espaço superior da linha de 32px e */
@@ -168,4 +178,47 @@ iframe {
     height: 90%; /* A altura de 90% nos permitirá visualizar o botão close (X) */
     position: absolute; /* Preenche todo o espaço do contexto definido acima */
     top: 5%; /* Espaçamento superior de 5% do container (permitirá aparecer o X) */
+}
+/*CSS curriculo*/
+#structure{
+  text-align: center;
+}
+#structure #object h2{
+  text-align:left;
+  max-width: 500px;
+  margin: 5px auto;
+  font-size: 22px;
+} 
+#structure #text-obj{ 
+  font-size: 20px; 
+  text-align:left;
+  max-width: 500px;
+  margin: 5px auto;
+
+
+
+}
+#structure #form h3{
+  text-align:left;
+  max-width: 500px;
+  margin: 5px auto;
+  font-size: 22px;
+} 
+#structure #text-form{ 
+  font-size: 20px; 
+  text-align:left;
+  max-width: 500px;
+  margin: 5px auto;
+}
+#structure #exp h4{
+  text-align:left;
+  max-width: 500px;
+  margin: 5px auto;
+  font-size: 22px;
+}
+#structure #text-exp{ 
+  font-size: 20px; 
+  text-align:left;
+  max-width: 500px;
+  margin: 5px auto;
 }
