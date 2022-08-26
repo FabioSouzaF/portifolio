@@ -194,9 +194,6 @@ iframe {
   text-align:left;
   max-width: 500px;
   margin: 5px auto;
-
-
-
 }
 #structure #form h3{
   text-align:left;
@@ -210,7 +207,21 @@ iframe {
   max-width: 500px;
   margin: 5px auto;
 }
-#structure #exp h4{
+
+#structure #ling h4{
+  text-align:left;
+  max-width: 500px;
+  margin: 5px auto;
+  font-size: 22px;}
+
+  #structure #text-ling{ 
+    font-size: 20px; 
+    text-align:left;
+    max-width: 500px;
+    margin: 5px auto;
+  }
+
+#structure #exp h5{
   text-align:left;
   max-width: 500px;
   margin: 5px auto;
@@ -221,4 +232,11 @@ iframe {
   text-align:left;
   max-width: 500px;
   margin: 5px auto;
+}
+#fundo{
+  background:url(fundo.png); /*imagem de fundo*/
+  background-size:cover; /*faz com que a imagem fique no fundo todo independento do tamanho da tela*/
+  backdrop-filter: blur(3px); /*fundo borrado*/
+  height: 103vh; /*faz com que o fundo fique em 100% da janela*/
+
 }
