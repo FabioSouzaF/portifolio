@@ -96,7 +96,15 @@ transition: color 200ms; /* Tempo da transição para a mudança de cor */
   color:blue; /*cor do CSS*/
 }
 #std a3{
-  color:yellow; /*cor do JavaScript*/
+  color:rgb(153, 73, 153); /*cor do PHP*/
+}
+
+#std a4{
+  color:rgb(59, 171, 209); /*Cor do SQL*/
+}
+
+#std a5{
+  color:yellow; /*cor do Python*/
 }
 /*=== CARDS ===*/
 .cards { /* Estilizando a section cards */
